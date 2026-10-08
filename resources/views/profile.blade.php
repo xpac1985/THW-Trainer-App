@@ -965,7 +965,7 @@
                             <i class="bi {{ $ach['icon'] }}"></i>
                         </div>
                     @endforeach
-                    <a href="{{ route('statistics') }}" class="ach ach--more" title="Alle Achievements ansehen">
+                    <a href="{{ route('gamification.achievements') }}" class="ach ach--more" title="Alle Achievements ansehen">
                         <i class="bi bi-three-dots"></i>
                     </a>
                 </div>
